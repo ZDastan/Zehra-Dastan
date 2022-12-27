@@ -62,3 +62,35 @@ background-color: #555;
     color: white;
     display: none;
     }
+/* nav styling stying finish */
+/* sections stying for paragraphing */
+section {
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+    }
+    /* images on page styling*/
+   .my-img{
+     flex-basis: 40%;
+     text-align: right;
+     margin-right: 20px;
+    }
+    .content{
+        padding-left: 20px;
+    }
+    .head-2 {
+        display: block;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: serif;
+        text-align: center;
+        color: #555;
+        }
+    .about-me{
+            display: flex;
+            align-items: center;
+            justify-content: center   
+        }
+       
