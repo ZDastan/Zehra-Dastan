@@ -94,8 +94,8 @@ section {
             justify-content: center   
         }
       /* about me section end */ 
-      /* My skills image styling */ 
-      .skills-img{
+      /* My work image styling */ 
+      .work-img{
         flex-wrap: wrap;
       }
       .content-1{
@@ -107,8 +107,11 @@ section {
         padding: 30px;
         width: 350px;
         text-align: center;
-        border-style: solid;
+        border-style: outset;
         border-width: 1px;
+        margin-top: 10px;
+     display: flexbox;
+   
       }
       .card-header{
         background: teal;
@@ -119,3 +122,13 @@ section {
         font-weight: bolder;
         font-size: medium;
     }
+    .card-1 {
+        padding: 20px;
+        width: 450px;
+        text-align: center;
+        border-style: outset;
+        border-width: 1px;
+        margin-top: 10px;
+        position: absolute;
+   
+      }
