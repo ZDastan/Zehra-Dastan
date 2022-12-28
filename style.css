@@ -63,7 +63,7 @@ background-color: #555;
     display: none;
     }
 /* nav styling stying finish */
-/* sections stying for paragraphing */
+/* sections stying for abot me section */
 section {
     line-height: 1.5em;
     font-size: 0.9em;
@@ -93,4 +93,29 @@ section {
             align-items: center;
             justify-content: center   
         }
-       
+      /* about me section end */ 
+      /* My skills image styling */ 
+      .skills-img{
+        flex-wrap: wrap;
+      }
+      .content-1{
+        padding-right: 20px;
+        text-align: left;
+        flex-wrap: wrap;
+      }
+      .card {
+        padding: 30px;
+        width: 350px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+      }
+      .card-header{
+        background: teal;
+        width: 100%;
+        padding: 40px 0;
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        font-size: medium;
+    }
