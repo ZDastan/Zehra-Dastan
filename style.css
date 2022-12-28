@@ -110,7 +110,7 @@ section {
         border-style: outset;
         border-width: 1px;
         margin-top: 10px;
-     display: flexbox;
+        flex: 1;
    
       }
       .card-header{
@@ -132,3 +132,75 @@ section {
         position: absolute;
    
       }
+      /* contact us form and styling of frame start*/
+#contact {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    }
+    form {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .feedback-input {
+    color: rgb(5, 5, 5);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid midnightblue;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    }
+    .feedback-input:focus {
+    border: 2px solid midnightblue;
+    }
+    textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+    }
+    [type="submit"] {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: midnightblue;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+    }
+    [type="submit"]:hover {
+    background: midnightblue;
+    }
+    /* contact form and styling finish*/
+    /* media screen queries*/
+@media screen and (max-width: 580px) {
+    nav ul {
+    max-height: 0;
+    }
+    .showing {
+    max-height: 20em;
+    }
+    nav ul li {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: left;
+    }
+    .handle {
+    display: block;
+    }
+    }
