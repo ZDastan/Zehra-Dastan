@@ -157,7 +157,8 @@ section {
   background-color: teal ;
   color: purple;
 }
-.card-1 {
+.card-1:hover,
+.card-1:hover .card-header {
     background-color: teal;
     color: purple;
 }
