@@ -30,13 +30,22 @@ a {
 text-decoration: none;
 color: inherit;
 }
+label.logo{
+    color: #555;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    background-color: lightblue;
+
+}
 nav ul {
-background-color: midnightblue;
+background-color: rgb(210, 204, 204);
 overflow: hidden;
-color: white;
+color: #555;
 padding: 0;
 margin: 0;
-text-align: center;
+text-align: right;
 font-size: 20px;
 font-weight: bold;
 -webkit-transition: max-height 0.4s;
@@ -45,12 +54,13 @@ font-weight: bold;
 -o-transition: max-height 0.4s;
 transition: max-height 0.4s;
 }
+
 nav ul li {
 display: inline-block;
 padding: 20px;
 }
 nav ul li:hover {
-background-color: #555;
+background-color: whitesmoke;
 }
 .handle {
     width: 100%;
@@ -76,6 +86,7 @@ section {
      flex-basis: 40%;
      text-align: right;
      margin-right: 20px;
+
     }
     .content{
         padding-left: 20px;
@@ -152,6 +163,86 @@ section {
       .mywork-title{
         font-size: 2.3rem;
       }
+      /* My work image styling end*/ 
+      /* My skills  styling */ 
+      .inner{
+        padding-top: 20px;
+      }
+      .myskills-title{
+        text-align: center;
+        color: #555;
+        padding: 1rem;
+        position: relative;
+        font-size: 2.3rem;
+      }
+      .myskills-title:after{
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 50%;
+       transform: translateX(-50%);
+       height: 4px;
+       width: 200px;
+       background-color: #2ecc71;
+
+      }
+      .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-gap: 1rem;
+        padding: 1rem 80px;
+        font-size: 1.2rem;
+        box-sizing: border-box; 
+      }
+      .skill-box{
+        padding: 1rem;
+        color: #ddd;
+        cursor: pointer;
+      }
+      .skill-box:hover{
+        background-color: #555;
+        color: white;
+      }
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img-1{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-1:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    border-radius: 45px;
+}
+.skill-title h3{
+    color: #555;
+    margin: 0.5rem;
+    
+}
+   
+.skill-icon{
+ width: 50px;
+ z-index: 2 ;
+}
+  /* My skills image styling end*/ 
       .card:hover,
 .card:hover .card-header {
   background-color: teal ;
@@ -166,7 +257,7 @@ section {
       /* contact us form and styling of frame start*/
 #contact {
     font-family: sans-serif;
-    color: rgb(0, 0, 0);
+    color: #555;
     }
     form {
     display: block;
@@ -182,7 +273,7 @@ section {
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border: 2px solid midnightblue;
+    border: 2px solid black;
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -191,7 +282,7 @@ section {
     outline: 0;
     }
     .feedback-input:focus {
-    border: 2px solid midnightblue;
+    border: 2px solid black;
     }
     textarea {
     height: 150px;
@@ -201,7 +292,7 @@ section {
     [type="submit"] {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     width: 100%;
-    background: midnightblue;
+    background:rgb(209, 233, 209);
     border-radius: 5px;
     border: 0;
     cursor: pointer;
@@ -214,7 +305,7 @@ section {
     font-weight: 700;
     }
     [type="submit"]:hover {
-    background: midnightblue;
+    background: green;
     }
     /* contact form and styling finish*/
     /* media screen queries*/
@@ -237,12 +328,12 @@ section {
     }
     /* footer styling start*/
     footer{
-        background-color:midnightblue;
+        background-color: rgb(210, 204, 204);
         color: aliceblue;
         padding:90px 0 ;
       }
       .footer-container{
-        background-color: midnightblue;
+        background-color:  rgb(210, 204, 204);
         overflow: hidden;
         color: white;
         padding: 0;

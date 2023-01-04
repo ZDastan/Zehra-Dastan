@@ -12,23 +12,15 @@
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <h1>
-            <strong> Zehra Dastan</strong><br />
-            <!-- second-header subtitle span -->
-            <span class="subtitle">FullStack Developer</span>
-        </h1>
-    </header>
-    <main>
-        <!-- nav-bar -->
+    <!-- nav-bar -->
         <nav>
+           <label class="logo">Zehra Dastan</label>
             <ul>
                 <a href="#about-me-link">
                     <li>About Me</li>
                 </a>
-                <a href="#resume">
-                    <li>Resume</li>
+                <a href="#my-skills-link">
+                    <li>My Skills</li>
                 </a>
                 <a href="#mywork-link">
                     <li>My Work</li>
@@ -40,6 +32,16 @@
             <!-- class for handling menu responsivness -->
             <div class="handle">Menu</div>
         </nav>
+    <!-- header -->
+    <header>
+        <h1>
+            <strong> Zehra Dastan</strong><br />
+            <!-- second-header subtitle span -->
+            <span class="subtitle">FullStack Developer</span>
+        </h1>
+    </header>
+    <main>
+        
         <br>
         <!-- about me section -->
         <section class="about-me" id="about-me-link">
@@ -115,8 +117,42 @@
         </section>
           <!-- my skills section start -->
           <section>
-            <div>
-                
+            <div class="inner">
+                <div class="myskills-title" id="my-skills-link">
+                    <h2>My skills</h2>
+                </div>
+                <div class="container">
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img-1">
+                                <img src="./Assets/image/HTML.jpg" class="skill-icon" id="skill-img" alt="HTML logo">
+                            </div>
+                                <h3>HTML 5</h3>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
+                            eros, malesuada eu sollicitudin nec, laoreet ac turpis. </p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img-1">
+                                <img src="./Assets/image/css.jpg" class="skill-icon" id="skill-img" alt="CSS logo">
+                            </div>
+                                <h3>CSS 3</h3>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
+                            eros, malesuada eu sollicitudin nec, laoreet ac turpis. </p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img-1">
+                                <img src="./Assets/image/JavaScript.jpg" class="skill-icon" id="skill-img" alt="JavaScript logo">
+                            </div>
+                                <h3>JavaScript</h3>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh
+                            eros, malesuada eu sollicitudin nec, laoreet ac turpis. </p>
+                    </div>
+                </div>
             </div>
           </section>
         <!-- contact form start -->
