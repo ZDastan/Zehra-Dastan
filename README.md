@@ -1,13 +1,13 @@
-# <Your-Project-Title>
+# <Zehra-Dastan-Portfolio>
 
 ## Description
+  
+  This portfolio of myself.I enjoyed creating my portfolio by using new skills i recently gain.I divided to four section "About me , My work, My skills and Contact me".
+  I build this project to use in future to use for my job searching period.
+  I had a problem to place my work section on right side then i figureout later after short search.
+  I learn so much about styling at CSS and i find it so fun!
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents (Optional)
 
