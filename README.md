@@ -20,14 +20,17 @@ Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using 
 
 ![screenshoot-page1](Assets/image/Screenshot%20page-1.png)
+
 ![screenshoot-page2](Assets/image/Screenshot%20page-2.png)
+
 ![screenshoot-page3](Assets/image/Screenshot%20page-3.png)
+
 ![screenshoot-page4](Assets/image/Screenshot%20page-4.png)
-[screenshoot-record](Assets/image/REC-portfolio.mp4)
 
 
 
-![alt text](assets/images/screenshot.png)
+
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
