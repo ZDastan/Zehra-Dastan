@@ -18,11 +18,11 @@
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using 
-![](Assets/image/Screenshot%20page-1.png)
-![](Assets/image/Screenshot%20page-2.png)
-![](Assets/image/Screenshot%20page-3.png)
-![](Assets/image/Screenshot%20page-4.png)
-[](Assets/image/REC-portfolio.mp4)
+![screenshoot-page1](Assets/image/Screenshot%20page-1.png)
+![screenshoot-page2](Assets/image/Screenshot%20page-2.png)
+![screenshoot-page3](Assets/image/Screenshot%20page-3.png)
+![screenshoot-page4](Assets/image/Screenshot%20page-4.png)
+[screenshoot-record](Assets/image/REC-portfolio.mp4)
 
 
 
