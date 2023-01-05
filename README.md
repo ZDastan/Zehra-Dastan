@@ -2,8 +2,8 @@
 
 ## Description
   
-  This portfolio of myself.
-  
+  This ia portfolio of myself.
+
   I enjoyed creating my portfolio by using new skills i recently gain.I divided to four section "About me , My work, My skills and Contact me".
 
   I build this project to keep my work and skills update to use during job search.

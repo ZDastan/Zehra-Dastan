@@ -16,7 +16,7 @@ background: teal;
 width: 100%;
 padding: 40px 0;
 color: #555;
-text-align: center;
+text-align: right;
 background-image: url(./Assets/image/painting.jpg);
 }
 /* span-subtitle stying */
@@ -24,19 +24,23 @@ background-image: url(./Assets/image/painting.jpg);
 color: #555;
 font-size: 37px;
 font-weight: bolder;
+background-color: lightblue;
+margin-right: 20px;
 }
 /* nav styling stying start */
 a {
 text-decoration: none;
 color: inherit;
 }
-label.logo{
+.logo{
     color: #555;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
     background-color: lightblue;
+    text-align: left;
+    margin-right: 769px;
 
 }
 nav ul {
@@ -57,11 +61,14 @@ transition: max-height 0.4s;
 
 nav ul li {
 display: inline-block;
-padding: 20px;
+padding: 20px 20px 10px 20px;
+border-bottom: 3px solid #555;
+margin-bottom: 10px;
 }
 nav ul li:hover {
 background-color: whitesmoke;
 }
+
 .handle {
     width: 100%;
     background: #446274;
@@ -206,6 +213,7 @@ section {
         background-color: #555;
         color: white;
       }
+
 .skill-title{
     display: flex;
     flex-direction: column;
@@ -310,6 +318,22 @@ section {
     /* contact form and styling finish*/
     /* media screen queries*/
 @media screen and (max-width: 580px) {
+    .about-me{
+        flex-direction: column;
+
+    }
+    .my-work{
+        flex-direction: column;
+    }
+    .mywork-header{
+       width: 100%;
+    }
+    .container{
+       grid-template-columns: repeat(1, 1fr); 
+    }
+    form{
+        width: 90%;
+    }
     nav ul {
     max-height: 0;
     }
@@ -324,6 +348,9 @@ section {
     }
     .handle {
     display: block;
+    }
+    .logo{
+        flex-wrap: wrap;
     }
     }
     /* footer styling start*/
