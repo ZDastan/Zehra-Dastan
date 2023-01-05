@@ -2,7 +2,7 @@
 
 ## Description
   
-  This ia portfolio of myself.
+  This is portfolio of myself.
 
   I enjoyed creating my portfolio by using new skills i recently gain.I divided to four section "About me , My work, My skills and Contact me".
 
@@ -18,6 +18,7 @@
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using 
+
 ![screenshoot-page1](Assets/image/Screenshot%20page-1.png)
 ![screenshoot-page2](Assets/image/Screenshot%20page-2.png)
 ![screenshoot-page3](Assets/image/Screenshot%20page-3.png)
